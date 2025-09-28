@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .post{
@@ -42,12 +43,13 @@ body{
 .post-icons{
     font-size: 25px;
     display: flex;
-    gap: 12px;
+    gap: 2px;
     margin-top: 20px;
+    margin-left: 3px;
 }
 
 #bookmark{
-    margin-left: 275px;
+    margin-left: 300px;
 }
 
 .users{
