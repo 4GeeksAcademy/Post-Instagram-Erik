@@ -1,3 +1,59 @@
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    height: 650px;
+    width: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-user{
+    display: flex;
+    flex-direction: column;
+    margin-right: 290px;
+}
+.technology{
+    font-weight: bold;
+}
+.post-image{
+    margin-top: 15px;
+}
+
+#html-icon{
+    font-size: 32px;
+}
+#menu{
+    margin-right: 11px;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.post-icons{
+    font-size: 25px;
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+#bookmark{
+    margin-left: 275px;
+}
+
+.users{
+    font-weight: bold;
+}
+.post-text{
+    margin-top: 30px;
+    margin: 0 10px;
 }
