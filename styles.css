@@ -1,4 +1,4 @@
-body{
+body {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -6,7 +6,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.post{
+.post {
     height: 650px;
     width: 450px;
     background-color: white;
@@ -14,33 +14,33 @@ body{
     flex-direction: column;
 }
 
-.post-header{
+.post-header {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
-.post-user{
+.post-user {
     display: flex;
     flex-direction: column;
-    margin-right: 290px;
+    margin-right: auto;
 }
-.technology{
+.technology {
     font-weight: bold;
 }
-.post-image{
+.post-image {
     margin-top: 15px;
 }
 
-#html-icon{
+#html-icon {
     font-size: 32px;
 }
-#menu{
+#menu {
     margin-right: 11px;
     font-weight: 700;
     font-size: 29px;
 }
 
-.post-icons{
+.post-icons {
     font-size: 25px;
     display: flex;
     gap: 2px;
@@ -48,14 +48,14 @@ body{
     margin-left: 3px;
 }
 
-#bookmark{
+#bookmark {
     margin-left: 300px;
 }
 
-.users{
+.users {
     font-weight: bold;
 }
-.post-text{
+.post-text {
     margin-top: 30px;
     margin: 0 10px;
 }
